@@ -1,2 +1,31 @@
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Local agent/editor settings
 .claude/settings.local.json
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+.vite/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment and logs
+.env
+.env.*
+*.log
